@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal Médico</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+      header {
+        background: #007bff;
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+      }
+      .container {
+        width: 80%;
+        margin: 20px auto;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+      form input,
+      form button {
+        padding: 10px;
+        margin: 10px;
+        width: 80%;
+      }
+      .crm-list {
+        margin-top: 20px;
+        text-align: left;
+      }
+      .crm-list li {
+        background: #e9ecef;
+        margin: 5px 0;
+        padding: 10px;
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Portal Médico - Cadastro Nacional</header>
+    <div class="container">
+      <h2>Buscar Profissionais</h2>
+      <form>
+        <input type="text" placeholder="Nome do médico" />
+        <button type="submit">Buscar</button>
+      </form>
+      <h3>Lista de Profissionais</h3>
+      <ul class="crm-list">
+        <li>Dr. João da Silva - CRM 12345-SP</li>
+        <li>Dra. Maria Souza - CRM 67890-RJ</li>
+        <li>Dr. Carlos Pereira - CRM 54321-MG</li>
+        <li>Dra. Ana Lima - CRM 98765-BA</li>
+        <li>Dr. Ricardo Mendes - CRM 11223-PR</li>
+      </ul>
+    </div>
+  </body>
+</html>
